@@ -1,0 +1,40 @@
+.contenedor-producto {
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 3px 13px 1px rgb(0,0,0,9%);
+}
+
+.imagen-producto {
+    width: 580px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-texto-producto {
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nombre-producto {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.detalles-producto {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.texto-producto {
+    font-size: 1.1rem;
+    text-align: justify;
+}
